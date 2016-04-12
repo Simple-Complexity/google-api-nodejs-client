@@ -54,7 +54,7 @@ function Discovery(options) {
     getRest: function(params, callback) {
       var parameters = {
         options: {
-          url: 'https://www.googleapis.com/discovery/v1/apis/{api}/{version}/rest',
+          url: 'https://jarvis-127706.appspot.com/_ah/api/discovery/v1/apis/{api}/{version}/rest',
           method: 'GET'
         },
         params: params,
@@ -83,7 +83,7 @@ function Discovery(options) {
     list: function(params, callback) {
       var parameters = {
         options: {
-          url: 'https://www.googleapis.com/discovery/v1/apis',
+          url: 'https://jarvis-127706.appspot.com/_ah/api/discovery/v1/apis',
           method: 'GET'
         },
         params: params,

@@ -70,6 +70,7 @@
     "lint": "jshint lib test scripts apis",
     "test": "mocha --reporter spec --timeout 4000",
     "generate-apis": "node scripts/generate",
+    "generate-jarvis": "node scripts/generate --discovery-url https://jarvis-127706.appspot.com/_ah/api/discovery/v1/apis/",
     "generate-docs": "jsdoc -c jsdoc-conf.json",
     "prepare": "npm run generate-apis && npm test && npm run lint && npm version patch",
     "coverage": "istanbul cover -x 'apis/**' _mocha -- --reporter spec --timeout 4000",

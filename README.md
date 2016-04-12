@@ -6,7 +6,7 @@
 [![Build Status][travisimg]][travis]
 [![Code Coverage][coverallsimg]][coveralls]
 
-Google's officially supported [Node.js][node] client library for using Google
+*Note: This is a fork of Google's officially supported [Node.js][node] client library for using Google
 APIs. Support for authorization and authentication with OAuth 2.0, API Keys and
 JWT (Service Tokens) is included.
 
